@@ -89,10 +89,10 @@ export const Skills = () => {
                                 <img src={meter1} alt="Image" />
                                 <h5>Numpy/Pandas</h5>
                             </div>
-                            <div className="item">
+                            {/* <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Numpy/Pandas</h5>
-                            </div>
+                            </div> */}
                         </Carousel>
                     </div>
                 </div>
