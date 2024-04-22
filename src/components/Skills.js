@@ -54,7 +54,7 @@ export const Skills = () => {
                                 <h5>MERN</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter2} alt="Image" />
                                 <h5>CyberSecurity</h5>
                             </div>
                             <div className="item">
@@ -62,11 +62,11 @@ export const Skills = () => {
                                 <h5>Flutter</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter3} alt="Image" />
                                 <h5>Dart</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter2} alt="Image" />
                                 <h5>Kotlin</h5>
                             </div>
                             <div className="item">
@@ -74,7 +74,7 @@ export const Skills = () => {
                                 <h5>Blockchain</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter3} alt="Image" />
                                 <h5>Machine Learning</h5>
                             </div>
                             <div className="item">
@@ -82,7 +82,7 @@ export const Skills = () => {
                                 <h5>MatLab</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter2} alt="Image" />
                                 <h5>R programming</h5>
                             </div>
                             <div className="item">
