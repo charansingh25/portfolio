@@ -86,6 +86,7 @@ export const Banner = () => {
                     to excellence, I thrive in the dynamic world of technology.
                     Let's build secure, innovative solutions together.
                   </p>
+                  
                   <button onClick={() => console.log("connect")}>
                     Connect <ArrowRightCircle size={25} />
                   </button>
