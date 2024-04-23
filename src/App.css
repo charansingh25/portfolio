@@ -94,6 +94,20 @@ nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
 }
+
+/* Default size for desktops */
+.navbar-logo {
+  width: 150px;  /* or whatever your default size is */
+  height: auto;  /* maintain aspect ratio */
+}
+/* Increase size on smaller screens */
+@media (max-width: 768px) { /* Adjusts when the screen size is 768px or less */
+  .navbar-logo {
+      width: 100px; /* larger size on smaller screens */
+      height: auto;
+  }
+}
+
 nav.navbar a.navbar-brand {
     width: 15%;
 }
