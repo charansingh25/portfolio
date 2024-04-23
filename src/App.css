@@ -230,6 +230,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
 
+/********************** Resume button ****************/
+.resume-btn {
+  font-weight: 700;
+  color: #fff;              /* White text color */
+  border: 3px solid #fff;   /* White border */
+  padding: 18px 34px;       /* Padding for size */
+  font-size: 18px;          /* Text size */
+  background-color: transparent; /* Transparent background */
+  transition: 0.3s ease-in-out; /* Smooth transition for hover effects */
+  border-radius: 30px;      /* Rounded corners, adjust as needed for shape */
+  position: relative;       /* Position relative for layering and positioning */
+  overflow: hidden;         /* Keeps pseudo-elements within the button */
+  display: inline-block;    /* Allows us to use padding and border correctly */
+  cursor: pointer;          /* Cursor indicates this is a clickable item */
+}
+
+.navbar .navbar-nav .navbar-link.resume-btn {
+  border-radius: 30px !important;
+}
+
+
 /************ Banner Css ************/
 .banner {
   margin-top: 0;
@@ -469,7 +490,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 100px 0;
 }
 .contact img {
   width: 92%;
@@ -540,6 +561,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
+  /* margin-top: 10px; */
   padding: 0 0 50px 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
@@ -551,7 +573,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 55px;
   color: #121212;
   padding: 85px 125px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
   margin-top: -122px;
 }
 .newsletter-bx h3 {
